@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.control-label.required:after {
+  color: #d00;
+  content: "*";
+  position: absolute;
+  margin-left: 5px;
+  top: 7px;
+}
+.home {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.container {
+  margin-top: 60px;
+}
+.dropdown-toggle,
+.cursor-anchor {
+  cursor: pointer;
+}
+.cursor-anchor {
+  color: dodgerblue !important;
+}
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  /* max-height: 500px; */
+}
+textarea {
+  height: 200px;
+}
